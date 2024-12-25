@@ -1,6 +1,6 @@
 {
-  "name": "my-extension",
-  "displayName": "my-extension-id",
+  "name": "translate_plugin",
+  "displayName": "translate_plugin-id",
   "description": "Translates selected text in Google translate",
   "version": "0.0.1",
   "engines": {
@@ -13,11 +13,11 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "my-extension.translate",
+      "command": "translate_plugin.translate",
       "title": "Translation"
     }],
     "keybindings": [{
-        "command": "my-extension.translate",
+        "command": "translate_plugin.translate",
         "key": "ctrl+shift+t",
         "when": "editorTextFocus" 
       }]
